@@ -26,11 +26,11 @@ html body {
 .nav li a {
   	color: #202020;
   	display: inline;
-  	font-family: 'Raleway', sans-serif;
+  	font-family: 'Helvetica', sans-serif;
 }
 
 .active_nav_opt {
-	font-color: #FF9900;
+	color: #FF9900;
 	font-weight: 600;
   	font-size: 14px;
 }
@@ -107,10 +107,18 @@ h1 {
   	font-size: 16px;
   	font-weight: 600;
 }
-.contactme a {
+
+.emailme {
 	font-family: 'Helvetica', sans-serif;
 	color: #FFA319;
-  	font-size: 25px;
+  	font-size: 20px;
+  	font-weight: 600;
+}
+
+.emailme:hover {
+  	font-family: 'Helvetica', sans-serif;
+	color: #FFA319;
+  	font-size: 23px;
   	font-weight: 600;
 }
 
