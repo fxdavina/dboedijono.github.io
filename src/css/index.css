@@ -1,0 +1,173 @@
+html body {
+  	margin: 0;
+  	padding: 0;
+}
+
+.header {
+	border-bottom: 1px solid #ddd;
+}
+
+.container {
+	width: 80%;
+  	margin: 0 auto;
+  	text-align: center;
+  	padding: 0 10px;
+}
+
+.nav {
+  	margin: 0;
+  	padding: 20px 0;
+}
+
+.nav li {
+  	display: inline;
+}
+
+.nav li a {
+  	color: #202020;
+  	display: inline;
+  	font-family: 'Raleway', sans-serif;
+}
+
+.active_nav_opt {
+	font-color: #FF9900;
+	font-weight: 600;
+  	font-size: 14px;
+}
+
+.page_container {
+	width: 100%;
+  	margin: 0 auto;
+  	text-align: center;
+}
+
+/* ----------------------------HOME---------------------------- */
+.me {
+	margin-top: 2%;
+}
+
+.name {
+	font-family: 'Krabougja';
+	font-color: #003300;
+  	font-size: 70px;
+}
+
+.profile_picture {
+	/*position:relative;
+	float: left;
+	top: 0px;
+    right: -100px;*/
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/profile_picture.jpg) no-repeat;
+	background-size: 300px;
+	background-position: center; 
+}
+
+/* ----------------------------RESUME---------------------------- */
+h1 {
+	font-family: 'Krabougja';
+	font-color: #003300;
+  	font-size: 70px;
+}
+
+.subtitle {
+	font-family: 'Helvetica', sans-serif;
+	color: #FFA319;
+  	font-size: 35px;
+  	font-weight: 600;
+}
+
+.get-pdf {
+	margin-right: auto;
+}
+
+.btn-get-pdf{
+	border: 2px solid #ddd;
+	border-color: #333;
+  	color: #333;
+  	font-family: 'Helvetica', sans-serif;
+  	font-weight: 600;
+  	font-size: 14px;
+  	letter-spacing: 1.3px;
+  	padding: 16px 40px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+}
+
+/* ----------------------------CONTACT ME---------------------------- */
+
+.contactme p {
+	font-family: 'Helvetica', sans-serif;
+	color: #00002A;
+  	font-size: 16px;
+  	font-weight: 600;
+}
+.contactme a {
+	font-family: 'Helvetica', sans-serif;
+	color: #FFA319;
+  	font-size: 25px;
+  	font-weight: 600;
+}
+
+.closing_picture {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/closing_picture.jpg) no-repeat;
+	background-size: 300px;
+	background-position: center;
+}
+
+.findme {
+	margin: 0;
+  	padding: 30px 0;
+}
+
+.findme li {
+  	display: inline;
+}
+
+.findme li a {
+  	color: #202020;	
+  	font-family: 'Helvetica', sans-serif;
+  	border: 2px solid #ddd;
+	border-color: #333;
+  	font-size: 14px;
+  	letter-spacing: 1.3px;
+  	padding: 12px 15px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+}
+
+.findme li img{
+	width: 21px;
+}
+
+
+/* ----------------------------FONT---------------------------- */
+@font-face {
+	font-family: 'Krabougja';
+	src: url('../fonts/Krabougja.ttf');
+}
+
+/* ----------------------------OTHERS---------------------------- */
+.footer {
+	position: fixed;
+  	bottom: 0px;
+  	width: 100%;
+  	margin: 0 auto;
+}
+
+.footer_container {
+	width: 100%;
+	text-align: center;
+  	padding: 0 10px;
+}
