@@ -99,6 +99,47 @@ h1 {
   	text-transform: uppercase;
 }
 
+.resume {
+	list-style-type: none;
+}
+
+.item {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 10px;
+}
+
+.item-icon img{
+	padding-top: 20%;
+	height: 60%;
+	float: right;
+}
+
+.item-info {
+	text-align: left;
+}
+
+.item-title {
+	font-family: 'Helvetica', sans-serif;
+	color: #000066;
+  	font-size: 23px;
+  	font-weight: 600;
+}
+
+.item-description {
+	font-family: 'Helvetica', sans-serif;
+	color: #000066;
+  	font-size: 14px;
+}
+.coursework-row {
+	display: table;
+}
+.coursework {
+	height: 120px;
+	display: table-cell;
+    position: static;
+    vertical-align: middle;
+}
 /* ----------------------------CONTACT ME---------------------------- */
 
 .contactme p {
